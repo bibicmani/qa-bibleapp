@@ -18,7 +18,7 @@ import pages.CreateProductPage;
 import pages.HomePage;
 
 public class Regression extends TestHelper {
-	// @Test
+	@Test
 	public void validateLoginFunction() throws IOException {
 		String expectedHomePageHeader = "ERP | Dashboard";
 		String expectedSideBarText = "MAIN NAVIGATION";
